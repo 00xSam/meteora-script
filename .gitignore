@@ -1,0 +1,12 @@
+
+# Dependencies
+node_modules
+
+# Misc
+.DS_Store
+*.pem
+
+# vscode
+.vscode
+
+.env

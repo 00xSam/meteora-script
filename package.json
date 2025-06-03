@@ -1,0 +1,30 @@
+{
+  "name": "meteora-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "execute": "ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@meteora-ag/alpha-vault": "1.1.13-rc.2",
+    "@meteora-ag/dlmm": "^1.5.3",
+    "@meteora-ag/dynamic-amm-sdk": "^1.3.8",
+    "@meteora-ag/stake-for-fee": "1.0.26-sam.0",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/spl-token-metadata": "^0.1.6",
+    "@solana/web3.js": "^1.98.0",
+    "@temekats/eefrofekats": "1.0.0",
+    "bn.js": "^5.2.1",
+    "mathjs": "^14.3.1"
+  },
+  "devDependencies": {
+    "@mercurial-finance/dynamic-amm-sdk": "^1.1.23",
+    "@mercurial-finance/vault-sdk": "^2.2.1",
+    "@types/bn.js": "^5.1.6"
+  }
+}
